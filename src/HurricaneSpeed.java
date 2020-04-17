@@ -7,16 +7,16 @@ public class HurricaneSpeed {
         while (true){
         System.out.println("Enter the speed");
         speed = s.nextInt();
-        if ((speed >74) && (speed <95)){
+        if ((speed >=74) && (speed <=95)){
             System.out.println("Catagory 1");
         }
-        else if ((speed >96) && (speed <110)){
+        else if ((speed >=96) && (speed <=110)){
             System.out.println("Catagory 2");
         }
-        else if ((speed >111) && (speed <129)){
+        else if ((speed >=111) && (speed <=129)){
             System.out.println("Catagory 3");
         }
-        else if ((speed >130) && (speed <156)){
+        else if ((speed >=130) && (speed =<156)){
             System.out.println("Catagory 4");
         }
         else  if (speed >= 157){
